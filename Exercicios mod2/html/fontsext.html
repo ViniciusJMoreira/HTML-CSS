@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonts externas</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+        @font-face {
+            font-family: face;
+            src: url(../_media/BIZUDPGothic-Regular.ttf) format(truetype);
+
+            /* Tipos de format()
+            - opentype (otf)
+            - truetype(ttf)
+            - embedded-opentype
+            - truetype-aat (Apple Advanced Typegraphy)
+            - svg
+            */
+
+        }
+        h1 {
+            font:italic 900 5em 'Henny Penny', cursive;
+            text-align: center;
+        }
+
+        p{
+            font-family: face, sans-serif;
+            text-align: justify;
+            margin: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Importando fonts</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi ipsam perspiciatis autem atque quam sit sed molestiae suscipit eveniet ex modi eligendi debitis explicabo corrupti, earum asperiores quia? Maxime, aspernatur. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur cupiditate porro saepe atque tempore dolorum ab, doloremque consequatur quae dicta fugiat ullam excepturi, assumenda qui pariatur accusantium nemo, enim harum! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est ipsam cupiditate tempora vero pariatur eum similique a maxime quae repellat, dolor magnam ducimus sed accusantium facilis sapiente, necessitatibus quam voluptatum.</p>
+</body>
+</html>

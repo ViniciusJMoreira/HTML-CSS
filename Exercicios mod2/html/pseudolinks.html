@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            color: red;
+            text-decoration: none;
+        }
+        a:visited {
+            color: darkred;
+        }
+        a:hover {
+            text-decoration: underline;
+            font-weight: bold;
+        }
+        a:active {
+            color: yellow;
+        }
+        a::before {
+            content: 'link';
+            font-size: 8px;
+            color: gray;
+        }
+        a::after {
+            content: 'link';
+            font-size: 8px;
+            color: gray;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li title="Github"><a href="https://github.com/ViniciusJMoreira" target="_blank" rel="external">Repositorio Github</a></li>
+        <li title="Instagram"><a href="https://www.instagram.com/scale.xyz/" target="_blank" rel="external">Canal do instagram</a></li>
+        <li title="Facebook"><a href="https://www.facebook.com/profile.php?id=100078263262898" target="_blank" rel="external">Canal do Facebook</li>
+    </ul>
+</body>
+</html>
