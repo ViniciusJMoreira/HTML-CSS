@@ -61,6 +61,7 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px var(--cor03);
 }
 
 .boximg02 {
@@ -68,7 +69,7 @@ section {
     background-position: top right;
     background-size: cover;
     background-attachment: fixed;
-    text-shadow: 1px 1px 3px var(--cor02);
+    box-shadow: inset 6px 6px 13px 0px var(--cor03);
 }
 .boximg01 p, .boximg02 p {
     display: inline-block;
@@ -76,7 +77,7 @@ section {
     color: var(--cor01);
     padding: 20px;
     border-radius: 30px;
-
+    text-shadow: 1px 1px 3px var(--cor02);
 }
 
 /****** RODAPÉ ******/
