@@ -45,46 +45,38 @@ a:hover {
     font-family: var(--font03);
     padding-bottom: 50px;
 }
-}
 
 /****** CORPO *******/
 section {
-    padding-top: 10Vh;
-    padding-bottom: 10vh;
-    margin:30px;
-}
-section p{
     font-family: var(--font01);
     font-size: 3.5vw;
-    padding: 30px;
+    padding-top: 10Vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
     line-height: 2em;
-    border-radius: 30px;
 }
-.box02 {
-    color: var(--cor01);
-
+.boximg01 {
     background-image: url('_midia/background001.jpg');
     background-position: right center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
-.box02 > p {
-    width: 41vw;
-    background-color: var(--cor03);
-}
-.box04 {
-    color: var(--cor01);
 
+.boximg02 {
     background-image: url('_midia/background002.jpg');
     background-position: top right;
     background-size: cover;
     background-attachment: fixed;
     text-shadow: 1px 1px 3px var(--cor02);
 }
-.box04 > p {
-    width: 42vw;
+.boximg01 p, .boximg02 p {
+    display: inline-block;
     background-color: var(--cor03);
+    color: var(--cor01);
+    padding: 20px;
+    border-radius: 30px;
+
 }
 
 /****** RODAPÉ ******/
