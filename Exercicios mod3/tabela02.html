@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            position: relative;
+            width: 800px;
+            border-collapse: collapse;
+        }
+        caption {
+            font-weight: bold;
+            font-size: 2em;
+            color: #929292;
+        }
+        thead tr th {
+            position: sticky;
+            top: -1;
+            background-color: #a8a8a8;
+        }
+        td,th {
+            border: 1px solid #929292;
+            padding: 10px;
+        }
+        tfoot {
+            background-color: #a8a8a8
+        }
+        tbody {
+            background-color: #F8F9FA;
+        }
+        tbody tr:nth-child(2n) {
+            background-color: #EAECF0;
+        }
+        td.position {
+            text-align: center;
+        }
+        td.qnt, tfoot {
+            text-align: right;
+        }       
+    </style>
+</head>
+<body>
+    <h1>Uso de Grande Tabelas</h1>
+    <!---->
+    <table>
+        <caption>População das Unidades Federativas</caption>
+        <thead>
+            <th scope="col" style="width: 50px;">Posição</th>
+            <th scope="col">Estado</th>
+            <th scope="col">População</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="position">1</td>
+               <td>São Paulo</td> 
+               <td class="qnt">45 919 049</td>
+            </tr>
+            <tr>
+                <td class="position">2</td>
+                <td>Minas Gerais</td>
+                <td class="qnt">21 168 791</td>
+            </tr>
+            <tr>
+                <td class="position">3</td>
+                <td>Rio de Janeiro</td>
+                <td class="qnt">17 264 943</td>
+            </tr>
+            <tr>
+                <td class="position">4</td>
+                <td>Bahia</td>
+                <td class="qnt">14 016 906</td>
+            </tr>
+            <tr>
+                <td class="position">5</td>
+                <td>Panamá</td>
+                <td class="qnt">10 444 526</td>
+            </tr>
+            <tr>
+                <td class="position">6</td>
+                <td>Rio Grande do Sul</td>
+                <td class="qnt">10 693 929</td>
+            </tr>
+            <tr>
+                <td class="position">7</td>
+                <td>Pernambuco</td>
+                <td class="qnt">8 796 448</td>
+            </tr>
+            <tr>
+                <td class="position">8</td>
+                <td>Ceará</td>
+                <td class="qnt">8 452 381</td>
+            </tr>
+            <tr>
+                <td class="position">9</td>
+                <td>Pará</td>
+                <td class="qnt">7 581 051</td>
+            </tr>
+            <tr>
+                <td class="position">10</td>
+                <td>Santa Catarina</td>
+                <td class="qnt">6 248 436</td>
+            </tr>
+            <tr>
+                <td class="position">11</td>
+                <td>Goiás</td>
+                <td class="qnt">6 003 788</td>
+            </tr>
+            <tr>
+                <td class="position">12</td>
+                <td>Maranhão</td>
+                <td class="qnt">6 574 789</td>
+            </tr>
+            <tr>
+                <td class="position">13</td>
+                <td>Amazonas</td>
+                <td class="qnt">3 483 985</td>
+            </tr>
+            <tr>
+                <td class="position">14</td>
+                <td>Espírito Santo</td>
+                <td class="qnt">3 514 952</td>
+            </tr>
+            <tr>
+                <td class="position">15</td>
+                <td>Paraíba</td>
+                <td class="qnt">3 766 528</td>
+            </tr>
+            <tr>
+                <td class="position">16</td>
+                <td>Mato Grosso</td>
+                <td class="qnt">3 035 122</td>
+            </tr>
+            <tr>
+                <td class="position">17</td>
+                <td>Rio Grande do Norte</td>
+                <td class="qnt">3 168 027</td>
+            </tr>
+            <tr>
+                <td class="position">18</td>
+                <td>Alagoas</td>
+                <td class="qnt">3 120 494</td>
+            </tr>
+            <tr>
+                <td class="position">19</td>
+                <td>Piauí</td>
+                <td class="qnt">3 118 360</td>
+            </tr>
+            <tr>
+                <td class="position">20</td>
+                <td>Distrito Federal</td>
+                <td class="qnt">2 570 160</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="2" scope="row">Total De Habitantes</th>
+                <td><strong>182 938 877</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
