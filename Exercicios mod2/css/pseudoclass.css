@@ -16,13 +16,12 @@
 .d3:hover {
     background-color: rgb(212, 141, 141);
 }
-}
-#d4 > p {
+#d4 p {
     display: none;
     color: rgb(197, 165, 105);
-    font-size: 1.4em;
+    font-size: 1em;
 }
-#d4:hover > p {
+#d4:hover p {
     display: block;
 
 }
