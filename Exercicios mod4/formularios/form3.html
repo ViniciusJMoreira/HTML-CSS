@@ -16,6 +16,14 @@
             flex-direction: column;
             padding: 10px;
         }
+        .div-btn {
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+        }
+        .input-btn {
+            padding: 0.5em 1em;
+        }
     </style>
 </head>
 <body>
@@ -37,9 +45,9 @@
             <label for="imail">E-mail</label>
             <input type="email" name="email" id="imail" required value="@seuemail.com">
         </div>
-        <div>
-            <input type="reset" value="Limpar"> <br>
-            <input style="background-color: #008000; color: #fff;" type="submit" value="Enviar">
+        <div class="div-btn">
+            <input class="input-btn" style="background-color: #008000; color: #fff;" type="submit" value="Enviar">
+            <input class="input-btn" type="reset" value="Limpar">
         </div>
     </form>
 </body>
