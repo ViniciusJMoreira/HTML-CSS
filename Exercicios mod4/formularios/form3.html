@@ -10,7 +10,7 @@
             display: grid;
             place-items: center;
         }
-        div {
+        .div-form {
             width: 300px;
             display: flex;
             flex-direction: column;
@@ -20,6 +20,7 @@
             display: flex;
             justify-content: space-around;
             flex-direction: row;
+            padding: 10px;
         }
         .input-btn {
             padding: 0.5em 1em;
@@ -29,19 +30,19 @@
 <body>
     <h1>Formulário 03</h1>
     <form action="cadastro.php" method="get" autocomplete="on">
-        <div>
+        <div class="div-form">
             <label for="inome">Nome Completo</label>
             <input type="text" name="nome" id="inome" required maxlength="30" minlength="10" autocomplete="additional-name" placeholder="Informe seu nome completo">
         </div>
-        <div>
+        <div class="div-form">
             <label for="ipass">Passoword</label>
             <input type="password" name="pass" id="ipass" required maxlength="20" minlength="8" autocomplete="new-password" placeholder="Informe sua password">
         </div>
-        <div>
+        <div class="div-form">
             <label for="ibday" class="label-bday">Data de nascimento</label>
             <input type="date" name="bday" id="ibday" required>
         </div>
-        <div>
+        <div class="div-form">
             <label for="imail">E-mail</label>
             <input type="email" name="email" id="imail" required value="@seuemail.com">
         </div>
