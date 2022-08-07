@@ -5,9 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        fieldset {
+            padding: 10px;
+            margin: 10px;
+        }
+        div {
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
     <h1>Formulário 04</h1>
-    
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <fieldset>
+            <legend>Sexo</legend>
+            <div>
+                <input type="radio" name="sexo" id="masculino" value="masculino">
+                <label for="masculino">Masculino</label>
+            </div>
+            <div>
+                <input type="radio" name="sexo" id="feminino" value="feminino">
+                <label for="feminino">Feminino</label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Esporte Preferido</legend>
+            <div>
+                <input type="checkbox" name="fut" id="ifut">
+                <label for="ifut">Futebol</label>
+            </div>
+            <div>
+                <input type="checkbox" name="bask" id="ibask">
+                <label for="ibask">Basket</label>
+            </div>
+            <div>
+                <input type="checkbox" name="base" id="ibase">
+                <label for="ibase">Baseball</label>
+            </div>
+            <div>
+                <input type="checkbox" name="nat" id="inat">
+                <label for="inat">Natação</label>
+            </div>
+        </fieldset>
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </div>
+    </form>
 </body>
 </html>

@@ -33,6 +33,9 @@
         .input-btn {
             padding: 0.5em 1em;
         }
+        .select {
+            text-align: center;
+        }
     </style>
 </head>
 <body>
@@ -57,6 +60,32 @@
         <div class="div-form">
             <label for="itel">Telefone</label>
             <input type="tel" name="tel" id="itel" required pattern="^\(\d{2}\)\d{4,5}-\d{4}$" placeholder="(00)00000-0000">
+        </div>
+        <div class="div-form">
+            <label for="iest">Estado</label>
+            <select name="est" id="iest">
+                <option class="select" value="" selected >------Select------</option>
+                <optgroup label="Região Nordeste">
+                    <option value="RN">Rio Grande Do Norte</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="MA">Maranhão</option>
+                </optgroup>
+                <optgroup label="Região Sudeste">
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="MG">Minas Gerais</option>
+                </optgroup>
+            </select>
+        </div>  
+        <div class="div-form">
+            <label for="ikid">Filhos</label>
+            <input type="text" name="kid" id="ikid" list="list-kid">
+            <datalist id="list-kid">
+                <option value="0">Nenhum</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </datalist>
         </div>
         <div class="div-btn">
             <input class="input-btn" style="background-color: #008000; color: #fff;" type="submit" value="Enviar">
