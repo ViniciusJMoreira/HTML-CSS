@@ -11,12 +11,10 @@
             place-items: center;
         }
         div {
+            width: 300px;
             display: flex;
-            justify-content: space-between;
+            flex-direction: column;
             padding: 10px;
-        }
-        label {
-            margin-right: 10px;
         }
     </style>
 </head>
@@ -30,6 +28,14 @@
         <div>
             <label for="ipass">Passoword</label>
             <input type="password" name="pass" id="ipass" required maxlength="20" minlength="8" autocomplete="new-password" placeholder="Informe sua password">
+        </div>
+        <div>
+            <label for="ibday" class="label-bday">Data de nascimento</label>
+            <input type="date" name="bday" id="ibday" required>
+        </div>
+        <div>
+            <label for="imail">E-mail</label>
+            <input type="email" name="email" id="imail" required value="@seuemail.com">
         </div>
     </form>
 </body>
