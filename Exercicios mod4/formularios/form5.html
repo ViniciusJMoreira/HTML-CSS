@@ -37,7 +37,8 @@
         </div>
         <div>
             <label for="irange">Satisfeito (%)</label>
-            <input type="range" name="range" id="irange" min="0" max="5" value="3">
+            <input type="range" name="range" id="irange" min="0" max="10" value="5" oninput="out.innerHTML = Number(irange.value)">
+            <output id="out">5</output>
         </div>
         <div>
             <label for="ifile">Faça aqui upload do file</label>
