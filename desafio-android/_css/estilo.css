@@ -50,12 +50,9 @@ body {
     padding-inline-start: 10px;
     margin-top: 25px;
 }
-#menu a {
-    text-decoration: none;
-    color: var(--cor0);
-    font-size: 0.8em;
-    font-weight: bold;
-    
+#menu li {
+    display: inline-block;
+    margin: 5px 6px 8px 5px;
 }
 #menu a:hover {
     background-color: var(--cor1);
@@ -63,10 +60,14 @@ body {
     border-radius: 5px;
     padding: 5px;
     transition: 0.3s;
+    box-sizing: border-box;
 }
-#menu li {
-    display: inline-block;
-    margin: 5px 6px 8px 5px;
+#menu a {
+    text-decoration: none;
+    color: var(--cor0);
+    font-size: 0.8em;
+    font-weight: bold;
+    box-sizing: border-box;
 }
 /*CORPO DA PÁGINA*/
 #corpo {
