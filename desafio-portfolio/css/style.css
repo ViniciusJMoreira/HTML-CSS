@@ -8,7 +8,7 @@
 body {
     max-height: 100vh;
     max-width: 100vw;
-    background: url('fundo-madeira.jpg');
+    background: url('../imagens/fundo-madeira.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
@@ -47,7 +47,7 @@ li {
     transform: translate(-50%, -50%);
     width: 311px;
     height: 627px;
-    background: url('frame-iphone.png');
+    background: url('../imagens/frame-iphone.png');
     background-repeat: no-repeat;
 }
 
