@@ -4,7 +4,7 @@
 
 body {
     font-size: 0.7em;
-    background: url('../_imagens/cev-portrait.jpg');
+    background: url(../imagens/cev-portrait.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom center;
