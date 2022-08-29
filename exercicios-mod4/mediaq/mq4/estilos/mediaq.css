@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+/* Os pontos de interrupção comuns são 320px — 480px para dispositivos móveis, 481px — 768px para iPads e tablets, 769px — 1024px para telas pequenas como laptop, 1025px — 1200px para telas grandes como desktops e 1201px e acima para telas extragrandes como TV. */
+
+@media screen and (min-width: 768px) {
+    #burguer {
+        display: none;
+    }
+    #links {
+        display: block;
+    }
+    li {
+        display: inline-block;
+        border-radius: 10%;
+    }
+    main {
+        width: 700px;
+    }
+}
