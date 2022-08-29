@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <span onclick="clickMenu()" id="burguer" class="material-icons">menu</span>
+        <nav id="links">
+            <ul>
+                <li><a href="#">Opcão1</a></li>
+                <li><a href="#">Opcão2</a></li>
+                <li><a href="#">Opcão3</a></li>
+                <li><a href="#">Opcão4</a></li>
+                <li><a href="#">Opcão5</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Testando media queries</h1>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis quaerat, soluta quas nisi ex quod enim praesentium odit eos labore iure asperiores. Maiores numquam ea ad obcaecati blanditiis magni natus!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis quaerat, soluta quas nisi ex quod enim praesentium odit eos labore iure asperiores. Maiores numquam ea ad obcaecati blanditiis magni natus!</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis quaerat, soluta quas nisi ex quod enim praesentium odit eos labore iure asperiores. Maiores numquam ea ad obcaecati blanditiis magni natus!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis quaerat, soluta quas nisi ex quod enim praesentium odit eos labore iure asperiores. Maiores numquam ea ad obcaecati blanditiis magni natus!</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis quaerat, soluta quas nisi ex quod enim praesentium odit eos labore iure asperiores. Maiores numquam ea ad obcaecati blanditiis magni natus!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis quaerat, soluta quas nisi ex quod enim praesentium odit eos labore iure asperiores. Maiores numquam ea ad obcaecati blanditiis magni natus!</p>
+        </section>
+    </main>
+    <script>
+        function clickMenu() {
+            if (links.style.display == 'block') {
+                links.style.display = 'none'
+            }else {
+                links.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
